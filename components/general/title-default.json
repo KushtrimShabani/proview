@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_general_title_defaults",
+  "info": {
+    "name": "title_default",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bold_title": {
+      "type": "string"
+    }
+  }
+}

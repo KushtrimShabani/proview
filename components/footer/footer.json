@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "name": "footer",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "red_title": {
+      "type": "string"
+    }
+  }
+}

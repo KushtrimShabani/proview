@@ -1,0 +1,23 @@
+  {
+  "collectionName": "components_general_contents",
+  "info": {
+    "name": "Content",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "boldtitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "red_title": {
+      "type": "string"
+    }
+  }
+}

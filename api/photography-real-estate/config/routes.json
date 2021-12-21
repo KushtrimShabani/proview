@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/photography-real-estate",
+      "handler": "photography-real-estate.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/photography-real-estate",
+      "handler": "photography-real-estate.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/photography-real-estate",
+      "handler": "photography-real-estate.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

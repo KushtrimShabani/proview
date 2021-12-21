@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/configurators-of-3-d-products",
+      "handler": "configurators-of-3-d-products.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/configurators-of-3-d-products",
+      "handler": "configurators-of-3-d-products.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/configurators-of-3-d-products",
+      "handler": "configurators-of-3-d-products.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

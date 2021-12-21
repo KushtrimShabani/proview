@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/matterport-virtual-tours",
+      "handler": "matterport-virtual-tours.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/matterport-virtual-tours",
+      "handler": "matterport-virtual-tours.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/matterport-virtual-tours",
+      "handler": "matterport-virtual-tours.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

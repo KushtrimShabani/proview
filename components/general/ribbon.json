@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_general_ribbons",
+  "info": {
+    "name": "ribbon",
+    "icon": "hockey-puck"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "boldtitle": {
+      "type": "string"
+    }
+  }
+}

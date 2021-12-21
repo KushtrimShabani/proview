@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_general_tetts",
+  "info": {
+    "name": "tett",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "setset": {
+      "type": "string"
+    }
+  }
+}

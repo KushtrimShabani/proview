@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/3-d-plan",
+      "handler": "3-d-plan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/3-d-plan",
+      "handler": "3-d-plan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/3-d-plan",
+      "handler": "3-d-plan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

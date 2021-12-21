@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/business-areas",
+      "handler": "business-areas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/business-areas",
+      "handler": "business-areas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/business-areas",
+      "handler": "business-areas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
