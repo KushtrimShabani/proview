@@ -1,57 +1,9 @@
 {
   "routes": [
     {
-      "method": "GET",
-      "path": "/contact-forms",
-      "handler": "contact-forms.find",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "GET",
-      "path": "/contact-forms/count",
-      "handler": "contact-forms.count",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "GET",
-      "path": "/contact-forms/:id",
-      "handler": "contact-forms.findOne",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "POST",
-      "path": "/contact-forms",
-      "handler": "contact-forms.create",
-      "config": {
-        "policies": []
-      }
-    },
-    {
       "method": "POST",
       "path": "/contact-forms/email",
       "handler": "email.create",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "PUT",
-      "path": "/contact-forms/:id",
-      "handler": "contact-forms.update",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "DELETE",
-      "path": "/contact-forms/:id",
-      "handler": "contact-forms.delete",
       "config": {
         "policies": []
       }
